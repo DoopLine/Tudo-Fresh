@@ -1,0 +1,118 @@
+import styled, { css } from "styled-components";
+
+export const Container = styled.div`
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+  height: 12rem;
+  padding: 0 20px;
+  position: relative;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.025);
+  text-align: center;
+  transition: height 1000ms;
+  width: 11rem;
+  min-width: 10rem;
+
+  ::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 9rem;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  ${({ expand }) =>
+    expand &&
+    css`
+      height: 17rem;
+    `}
+`;
+
+export const CardArrow = styled.svg`
+  transform-origin: 50%;
+  transform: rotate(180deg);
+  transition: transform 1s, height 1s;
+
+  ${({ expand }) =>
+    expand &&
+    css`
+      transform: rotate(90deg);
+      height: 0.3rem;
+    `}
+`;
+
+export const CardButton = styled.button`
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.7rem;
+  width: 84%;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  background-color: transparent;
+  border: none;
+  translate: .5s; 
+  border-radius: 3px;
+
+  :hover{
+    background-color: #dfdfdf;
+  }
+
+  ${({ expand }) =>
+    expand &&
+    css`
+      justify-content: flex-end;
+    `}
+
+  > p {
+    display: none;
+
+    ${({ expand }) =>
+      expand &&
+      css`
+        display: block;
+      `}
+  }
+`;
+
+export const CardImage = styled.img`
+  position: relative;
+  width: 66%;
+  margin-top: 30px;
+  transform: translateY(10px);
+  transition: transform 1000ms;
+  z-index: 1;
+
+  ${({ expand }) =>
+    expand &&
+    css`
+      transform: translateY(0);
+    `}
+`;
+
+export const CardContent = styled.span`
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-160px);
+  transition: transform 1000ms;
+
+  ${({ expand }) =>
+    expand &&
+    css`
+      transform: translateY(-15px);
+    `}
+`;
+
+export const CardTitle = styled.p`
+  font-weight: bold;
+  margin: 1rem 0;
+`;
+
+export const CardDesc = styled.p`
+  font-size: 0.7rem;
+`;

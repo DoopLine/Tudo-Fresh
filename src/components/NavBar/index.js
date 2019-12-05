@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logoImg from "../../assets/svg/logo.svg";
 
 import useToggle from "../../hooks/useToggle";
@@ -18,12 +19,12 @@ import Modal from "../Modal";
 import NavTopContent from "./NavTopContent";
 
 const navItems = [
-  "início",
-  "em casa",
-  "produtos",
-  "na empresa",
-  "revenda",
-  "sobre"
+  { text: "início", href: "" },
+  { text: "no cubico", href: "house" },
+  { text: "produtos", href: "products" },
+  { text: "na empresa", href: "office" },
+  { text: "revenda", href: "resale" },
+  { text: "sobre", href: "about" }
 ];
 
 const NavBar = () => {
@@ -54,7 +55,7 @@ const NavBar = () => {
         <NavList>
           {navItems.map((_item, i) => (
             <NavLink key={i} active={i === 0}>
-              <a href="*">{_item}</a>
+              <Link to={_item.href}>{_item.text}</Link>
             </NavLink>
           ))}
         </NavList>

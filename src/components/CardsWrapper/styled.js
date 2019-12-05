@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Container = styled.section`
   display: block;
@@ -11,6 +11,13 @@ export const Header = styled.article`
   max-width: 37rem;
   margin: auto;
   padding: 0 0.5rem;
+  align-items: center;
+
+  ${({ stretch }) =>
+    stretch &&
+    css`
+      max-width: initial;
+    `}
 
   > h3 {
     text-transform: capitalize;
@@ -42,7 +49,13 @@ export const Content = styled.article`
   max-width: 37rem;
   margin: auto;
 
+  ${({ stretch }) =>
+    stretch &&
+    css`
+      max-width: initial;
+    `}
+
   > div:not(:last-of-type) {
-    margin-right: ${({marginRight}) => marginRight + 'rem'};
+    margin-right: ${({ marginRight }) => marginRight + "rem"};
   }
 `;

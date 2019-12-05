@@ -23,7 +23,7 @@ const animLeft = keyframes`
 
 export const Container = styled.section`
   position: relative;
-  height: 15rem;
+  height: 100%;
   display: flex;
   background: url(${({ bg }) => bg});
   background-position: center;
@@ -52,7 +52,7 @@ export const SlideContent = styled.article`
   display: flex;
   width: 100%;
   z-index: 1;
-  height: 80%;
+  height: 70%;
 
   ${({ hasAnimation, animDirection }) => {
     if (hasAnimation && animDirection) {

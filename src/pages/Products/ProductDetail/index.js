@@ -1,11 +1,19 @@
 import React from "react";
+import {useParams} from 'react-router-dom';
 
 import { Container, DetailWrapper, ImageWrapper } from "./styled";
 
 import Button from "../../../components/Button";
 
-const ProductDetail = ({ product }) => {
+import products from '../../../data/products';
+
+const ProductDetail = () => {
+  const {id: productId} = useParams();
+  
+  const product = products.find( _p => _p.id === productId);
+
   const { img, title, price } = product;
+
   return (
     <Container>
       <ImageWrapper>

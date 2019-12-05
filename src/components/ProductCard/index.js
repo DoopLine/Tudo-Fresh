@@ -1,6 +1,6 @@
 import React from "react";
-
-import useToggle from "../../hooks/useToggle";
+import { useHistory } from "react-router-dom";
+// import useToggle from "../../hooks/useToggle";
 
 import teste from "../../assets/images/common/slide_main.jpg";
 
@@ -14,23 +14,21 @@ import {
 } from "./styled";
 
 import Button from "../Button";
-import ProductDetail from "../../pages/Products/ProductDetail";
-import Modal from "../Modal";
+// import ProductDetail from "../../pages/Products/ProductDetail";
+// import Modal from "../Modal";
 
-const ProductCard = ({ title, img, price }) => {
+const ProductCard = ({ product }) => {
+  const { title, img, price, id } = product;
+  const history = useHistory();
 
-  const [isOpen, toggleIsOpen] = useToggle();
+  const handleOpenModal = () => {
+    history.push(`/products/${id}`);
+  };
 
   return (
     <Container tabIndex="0">
-      {/* Condicional Component */}
-      {isOpen && (
-        <Modal onClose={toggleIsOpen}>
-          <ProductDetail product={{title, img, price}} />
-        </Modal>
-      )}
       {/* End */}
-      <ImageWrapper onClick={toggleIsOpen}>
+      <ImageWrapper onClick={handleOpenModal}>
         <Image src={img || teste} alt={title} title={title} />
       </ImageWrapper>
       <Content>

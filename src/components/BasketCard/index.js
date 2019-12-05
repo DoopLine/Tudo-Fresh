@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useHistory } from "react-router-dom";
 import useToogle from "../../hooks/useToggle";
 
 import {
@@ -12,10 +12,13 @@ import {
   CardButton
 } from "./styled";
 
-const BasketCard = ({ content }) => {
+const BasketCard = ({ content, goTo = "" }) => {
+  const history = useHistory();
   const { img, title } = content;
 
   const [isExpanded, toggleIsExpanded] = useToogle();
+
+  const handleClickButton = () => (isExpanded ? history.push(goTo) : null);
 
   return (
     <Container expand={isExpanded} onClick={toggleIsExpanded}>
@@ -26,8 +29,8 @@ const BasketCard = ({ content }) => {
           Esta cesta é ideal para quem deseja ter as melhores frutas e outros.
         </CardDesc>
       </CardContent>
-      <CardButton expand={isExpanded}>
-      <p>Adicionar ao carrinho</p>
+      <CardButton expand={isExpanded} onClick={handleClickButton}>
+        <p>Adicionar ao carrinho</p>
         <CardArrow
           expand={isExpanded}
           xmlns="http://www.w3.org/2000/svg"

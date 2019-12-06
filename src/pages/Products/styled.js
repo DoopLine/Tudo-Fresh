@@ -19,18 +19,9 @@ export const ActionTools = styled.article`
   margin: 1.67em 1rem;
   padding: 0.7rem 0;
 
-  > label {
-    padding-right: 0.9rem;
-    border-right: 2px solid #bbb;
+  >*:not(:last-child){
     margin-right: 1rem;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    font-size: 0.7rem;
+    padding-right: 1rem;
+    border-right: 2px solid currentColor;
   }
-`;
-
-export const Select = styled.select`
-  font-size: 0.7rem;
-  padding: 0 0.5rem;
-  border: none;
 `;

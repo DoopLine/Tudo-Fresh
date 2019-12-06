@@ -13,12 +13,12 @@ import appleImg from "../../assets/images/common/artistic_apple.jpg";
 import stepsImg from "../../assets/images/common/produtor consumidor_Prancheta 1.png";
 import heroImg from "../../assets/images/common/cooking.jpg";
 
-import products from '../../data/products';
+import { previewProject as products } from "../../data/products";
 
 const House = () => {
   return (
     <Container>
-      <Hero image={heroImg} text="Facilidade e satisfação no cubico"/>
+      <Hero image={heroImg} text="Facilidade e satisfação no cubico" />
       {/* <InfoWrapper title="Facilidade e satisfação no cubico"> */}
       <InfoWrapper
         title="Facilidade e satisfação no cubico"
@@ -51,7 +51,7 @@ const House = () => {
           <ProductCard key={_prod.id} product={_prod} />
         ))}
       </CardsWrapper>
-    
+
       <Footer />
     </Container>
   );

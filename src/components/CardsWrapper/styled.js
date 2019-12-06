@@ -7,6 +7,7 @@ export const Container = styled.section`
 
 export const Header = styled.article`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   max-width: 37rem;
   margin: auto;
@@ -21,6 +22,14 @@ export const Header = styled.article`
 
   > h3 {
     text-transform: capitalize;
+
+    ::after {
+      content: "";
+      display: block;
+      background-color: currentColor;
+      height: 3px;
+      margin: 0.3rem 0.5rem;
+    }
   }
 
   > a {

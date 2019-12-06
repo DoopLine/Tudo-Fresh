@@ -5,7 +5,22 @@ import { Container, ActionTools, Select } from "./styled";
 import InfoWrapper from "../../components/InfoWrapper";
 import Footer from "../../components/Footer";
 import ProductstList from "./ProductstList";
+import ProductSelectBox from "./ProductSelectBox";
 
+const categoryOptions = [
+  { title: "Todas", value: 0 },
+  { title: "Charcutaria", value: 1 },
+  { title: "Frutas", value: 2 },
+  { title: "Legumes", value: 3 }
+];
+
+const orderByOptions = [
+  { title: "Destaque", value: 0 },
+  { title: "Novos", value: 1 },
+  { title: "A-Z", value: 2 },
+  { title: "Mais baratos", value: 3 },
+  { title: "Mais caros", value: 4 },
+];
 
 const Products = () => {
   return (
@@ -17,14 +32,8 @@ const Products = () => {
         comeste! Não perca!
       </InfoWrapper>
       <ActionTools>
-        <label htmlFor="filter-by">ordenado por</label>
-        <Select id="filter-by">
-          <option value="filter">Relevância</option>
-          <option value="filter">A-Z</option>
-          <option value="filter">Novos</option>
-          <option value="filter">Mais Baratos</option>
-          <option value="filter">Mais Caros</option>
-        </Select>
+        <ProductSelectBox id="category" title="Categoria" options={categoryOptions} />
+        <ProductSelectBox id="orderby" title="Ordenar por" options={orderByOptions} />
       </ActionTools>
       <ProductstList />
       <Footer />

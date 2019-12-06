@@ -10,6 +10,7 @@ import Cart from "./pages/Cart";
 import House from "./pages/House";
 import Office from "./pages/Office";
 import Resale from "./pages/Resale";
+import About from "./pages/About";
 
 //Componets
 import ProductDetail from './pages/Products/ProductDetail';
@@ -35,6 +36,7 @@ function App() {
         <Route path="/office" component={Office} />
         <Route path="/resale" component={Resale} />
         <Route path="/cart" component={Cart} />
+        <Route path="/about" component={About} />
       </Switch>
       <GlobalStyled />
     </>

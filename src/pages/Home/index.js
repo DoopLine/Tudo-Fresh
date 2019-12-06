@@ -9,7 +9,7 @@ import CardsWrapper from "../../components/CardsWrapper";
 import SlideShow from "../../components/SlideShow";
 import Footer from "../../components/Footer";
 
-import products from "../../data/products";
+import {previewProject as products} from "../../data/products";
 //Images
 import orange from "../../assets/svg/orange.svg";
 

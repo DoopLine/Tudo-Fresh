@@ -56,10 +56,6 @@ export const NavLink = styled.li`
     padding-bottom: 0.1rem;
   }
 
-  /* :not(:last-child) {
-    margin-left: 1rem;
-  } */
-
   > a {
     text-decoration: none;
     color: currentColor;

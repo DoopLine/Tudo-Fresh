@@ -5,6 +5,7 @@ export const Container = styled.article`
   padding-left: 0.6rem;
   padding-right: 0.6rem;
   margin: 1rem auto;
+  max-height: 15rem;
 
   ${({ hasImg }) =>
     hasImg &&
@@ -22,9 +23,11 @@ export const Container = styled.article`
       max-width: initial;
       padding-left: initial;
       padding-right: initial;
+      max-height: initial;
 
-      >img{
+      > img {
         transform: translateX(50%);
+        max-width: initial !important;
       }
     `}
 
@@ -33,6 +36,7 @@ export const Container = styled.article`
     height: 100%;
     object-fit: contain;
     margin-right: 1rem;
+    max-width: 20rem;
   }
 `;
 

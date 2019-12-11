@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, ActionTools, Select } from "./styled";
+import { Container, ActionTools } from "./styled";
 
 import InfoWrapper from "../../components/InfoWrapper";
 import Footer from "../../components/Footer";

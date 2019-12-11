@@ -8,6 +8,7 @@ import ProductCard from "../../components/ProductCard";
 import CardsWrapper from "../../components/CardsWrapper";
 import SlideShow from "../../components/SlideShow";
 import Footer from "../../components/Footer";
+import CategoriesList from "./CategoriesList";
 
 import {previewProject as products} from "../../data/products";
 //Images
@@ -36,6 +37,7 @@ const Home = () => {
           <ProductCard key={i} product={product} />
         ))}
       </CardsWrapper>
+      <CategoriesList />
       <Footer />
     </Container>
   );

@@ -5,14 +5,17 @@ export const Container = styled.button`
   border-radius: 5px;
   border: none;
   color: white;
-  font-size: 0.7rem;
-  padding: 0.3rem 0.5rem;
+  font-size: 0.6rem;
+  padding: 0.35rem 0.5rem;
   cursor: pointer;
   text-transform: uppercase;
-  transition: background-image .5s;
+  transition: background-image 0.5s;
   width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  :hover{
+  :hover {
     background-image: linear-gradient(50deg, #f2673d, #f58d23);
   }
 `;

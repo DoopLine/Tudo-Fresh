@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, useHistory} from "react-router-dom";
+import { Route, Switch, useHistory } from "react-router-dom";
 import GlobalStyled from "./styles/GlobalStyled";
 import NavBar from "./components/NavBar";
 
@@ -11,17 +11,27 @@ import House from "./pages/House";
 import Office from "./pages/Office";
 import Resale from "./pages/Resale";
 import About from "./pages/About";
+import SignInAndSignUp from "./pages/SignInAndSignUp";
+
+//Containers
+import User from "./containers/User";
 
 //Componets
-import ProductDetail from './pages/Products/ProductDetail';
-import Modal from './components/Modal';
+import ProductDetail from "./pages/Products/ProductDetail";
+import Modal from "./components/Modal";
 
 function App() {
   const history = useHistory();
 
   const displayModal = () => (
-    <Modal onClose={()=> history.goBack()}>
+    <Modal onClose={() => history.goBack()}>
       <ProductDetail />
+    </Modal>
+  );
+
+  const displayUser = () => (
+    <Modal onClose={() => history.goBack()}>
+      <User />
     </Modal>
   );
 
@@ -37,6 +47,8 @@ function App() {
         <Route path="/resale" component={Resale} />
         <Route path="/cart" component={Cart} />
         <Route path="/about" component={About} />
+        <Route path="/signin" component={SignInAndSignUp} />
+        <Route path="/user" component={displayUser} />
       </Switch>
       <GlobalStyled />
     </>

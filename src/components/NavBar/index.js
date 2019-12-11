@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logoImg from "../../assets/svg/logo.svg";
 
 import useToggle from "../../hooks/useToggle";
@@ -28,8 +28,10 @@ const navItems = [
 ];
 
 const NavBar = () => {
+  const location = useLocation();
   const [isSearching, toggleIsSearching] = useToggle();
   const [searchKey, changeSearchKey, resetSearchKey] = useFormState("");
+
   return (
     <Container>
       {/* Condicional Component */}
@@ -51,11 +53,12 @@ const NavBar = () => {
           logoImg={logoImg}
           toggleIsSearching={toggleIsSearching}
         />
-        {/* <hr style={{ marginTop: '.1rem'}}/> */}
         <NavList>
-          {navItems.map((_item, i) => (
-            <NavLink key={i} active={i === 0}>
-              <Link to={_item.href}>{_item.text}</Link>
+          {navItems.map(_item => (
+            <NavLink key={_item.href} active={location.pathname === `/${_item.href}`}>
+              <Link to={_item.href}>
+                {_item.text}
+              </Link>
             </NavLink>
           ))}
         </NavList>

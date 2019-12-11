@@ -11,3 +11,11 @@ export const Container = styled.main`
     height: calc(100% - 2rem);
   }
 `;
+
+export const ContentWrapper = styled.section`
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+`;
+
+

@@ -2,6 +2,7 @@
   "name": "tudo-fresh",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://doorpline.github.io/Tudo-Fresh",
   "dependencies": {
     "normalize.css": "^8.0.1",
     "react": "^16.12.0",
@@ -16,6 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

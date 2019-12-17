@@ -37,10 +37,10 @@ const Resale = () => {
     <Container>
       <Hero
         image={heroImg}
-        text="Experimente o serviço de revenda Tudo Fresh"
+        text="Experimente o serviço de revenda Tudofresh"
       />
       <IntroSection>
-        <h4>A Tudo Fresh tem condições especiais si.</h4>
+        <h4>A Tudofresh tem condições especiais si.</h4>
         <p>Se está responsável pela gestão de um(a):</p>
         <ul>
           <li>Escola</li>
@@ -51,7 +51,7 @@ const Resale = () => {
           <li>Outros estabelecimento comercial</li>
         </ul>
         <p>
-          Com a Tudo Fresh ganhe mais tempo para o seu estabelecimento e
+          Com a Tudofresh ganhe mais tempo para o seu estabelecimento e
           principalmente ganhe tempo para dedicar aos seus clientes.
         </p>
       </IntroSection>

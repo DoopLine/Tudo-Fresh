@@ -18,6 +18,7 @@ export const ActionTools = styled.article`
   border-bottom: 1px solid;
   margin: 1.67em 1rem;
   padding: 0.7rem 0;
+  overflow-x: auto;
 
   >*:not(:last-child){
     margin-right: 1rem;

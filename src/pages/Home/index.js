@@ -9,6 +9,7 @@ import CardsWrapper from "../../components/CardsWrapper";
 import SlideShow from "../../components/SlideShow";
 import Footer from "../../components/Footer";
 import CategoriesList from "./CategoriesList";
+import ImageGrid from '../../components/ImageGrid';
 
 import {previewProject as products} from "../../data/products";
 //Images
@@ -18,7 +19,7 @@ const Home = () => {
   return (
     <Container>
       <SlideShow />
-      <CardsWrapper title="cesta">
+      <CardsWrapper title="cestas">
         <BasketCard
           content={{ img: orange, title: "Cesta Especial" }}
           goTo="/cart"
@@ -38,6 +39,7 @@ const Home = () => {
         ))}
       </CardsWrapper>
       <CategoriesList />
+      <ImageGrid />
       <Footer />
     </Container>
   );

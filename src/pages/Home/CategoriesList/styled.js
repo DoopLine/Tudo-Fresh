@@ -1,20 +1,28 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  display: flex;
-  flex-direction: column;
-  margin: 1rem 0;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 `;
 
 export const Title = styled.h3`
-  margin: 1rem 0;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 `;
 
-export const List = styled.h3`
-  display: flex;
+export const List = styled.div`
+	display: flex;
+	margin-bottom: .5rem;
 
-  @media only screen and (max-width: 30rem) {
-    flex-direction: column;
-  }
+	>*:not(:last-child){
+		margin-right: .5rem;
+	}
+
+	@media only screen and (max-width: 30rem) {
+		flex-direction: column;
+		>*:not(:last-child){
+		margin-right: initial;
+	}
+	}
 `;

@@ -13,12 +13,12 @@ const About = () => {
       <InfoWrapper title="Sobre Nós" image={aboutImg}> 
         Quase metade dos alimentos produzidos por agricultores no nosso país nunca é vendido,
         mas consumir alimentos saldaveis tem se tornado muito caro. Este é um ciclo de desperdício
-        de alimentos que tem que acabar, e há uma solução simples para este problema. <strong>Tudo Fresh</strong>
+        de alimentos que tem que acabar, e há uma solução simples para este problema. <strong>Tudofresh</strong>
       </InfoWrapper>
       <InfoWrapper title="Nosso Propósito"> 
         Quase metade dos alimentos produzidos por agricultores no nosso país nunca é vendido,
         mas consumir alimentos saldaveis tem se tornado muito caro. Este é um ciclo de desperdício
-        de alimentos que tem que acabar, e há uma solução simples para este problema. <strong>Tudo Fresh</strong>
+        de alimentos que tem que acabar, e há uma solução simples para este problema. <strong>Tudofresh</strong>
       </InfoWrapper>
       <Footer />
     </Container>

@@ -2,7 +2,8 @@ import styled, { css } from "styled-components";
 
 export const Container = styled.section`
   display: block;
-  margin: 2rem 1rem;
+  margin: 1rem;
+  margin-top: 2rem;
 `;
 
 export const Header = styled.article`
@@ -13,6 +14,7 @@ export const Header = styled.article`
   margin: auto;
   padding: 0 0.5rem;
   align-items: center;
+  margin-bottom: 1rem;
 
   ${({ stretch }) =>
     stretch &&

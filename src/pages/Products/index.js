@@ -25,7 +25,7 @@ const orderByOptions = [
 const Products = () => {
   return (
     <Container>
-      <InfoWrapper title="Produtos">
+      <InfoWrapper title="Produtos" flex={false}>
         É hora de encher o kubico ou geleira do salo com produtos frescos. As
         ofertas actuais dos produtos TudoFresh deixam todos babados! Ficou
         curioso? Procure aqui os produtos mais frescos e apetitosos que já

@@ -29,6 +29,7 @@ export const Container = styled.section`
   background-position: center;
   background-size: cover;
   align-items: center;
+  max-height: 30rem;
 
   ::before {
     content: "";
@@ -95,7 +96,6 @@ export const IconButton = styled.button`
 export const SlideNav = styled.div`
   position: absolute;
   bottom: 0.5rem;
-  /* background-color: #fff; */
   left: 50%;
   transform: translateX(-50%);
   display: flex;

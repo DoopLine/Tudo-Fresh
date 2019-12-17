@@ -18,7 +18,7 @@ import slideImg2 from "../../assets/images/slide/macas.jpg";
 import slideImg3 from "../../assets/images/slide/pimentas.jpg";
 
 const showcases = [
-  {img: slideImg1,text: `É hora de encher o kubico ou geleira do salo com produtos frescos. As ofertas actuais dos produtos TudoFresh deixam todos babados!`},
+  {img: slideImg1,text: `Está difícil encontrar os melhores produtos agrícolas para a sua família? Compre os produtos TudoFresh!`},
 
   {img: slideImg2 ,text:`Ficou curioso? Ligue! 
   Temos os produtos mais frescos e apetitosos que já comeste! Não perca!`},

@@ -20,8 +20,8 @@ export const Backdrop = styled.div`
 
 export const CloseBtn = styled.button`
   position: absolute;
-  right: 40px;
-  top: 40px;
+  right: 5vw;
+  top: 10px;
   cursor: pointer;
   background-color: transparent;
   border: none;

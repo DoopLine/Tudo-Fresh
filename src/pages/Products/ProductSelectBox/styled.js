@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.span`
   display: flex;
   align-items: center;
+  min-width: 12rem;
 
   > label {
     padding-right: 0.5rem;

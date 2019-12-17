@@ -26,8 +26,7 @@ const House = () => {
         alt="Maça"
       >
         Imagine receber das mãos de um produtor as frutas e as hortícolas mais
-        frescas em sua casa ou no seu local de trabalho, sem necessidade de
-        perder tempo ou de se deslocar. Faça-nos um pedido através da loja
+        frescas em sua casa. Faça-nos um pedido através da loja
         online, email ou telemóvel e em conjunto com a sua família comprove esta
         realidade.
       </InfoWrapper>
@@ -35,15 +34,12 @@ const House = () => {
       <InfoWrapper
         title="Do produtor até si, com toda a qualidade"
         image={stepsImg}
-        flex={false}
         alt="Processo Produtor Consumidor"
+        reverse={true}
+        cover={false}
       >
-        A tudo fresh faz a ponte entre o local de produção e o consumidor final.
-        Privilegiamos frutas da época e os Produtores Nacionais. Visitamos os
-        nossos produtores regulamente e acompanhamos as suas produções.
-        Acreditamos que só com uma relação estreita com os produtores é possível
-        escolher os melhores produtos e aconselhar da melhor forma todos os
-        nossos clientes.
+        A Tudofresh faz a ponte entre o local de produção e o consumidor final.
+        Privilegiamos frutas da época e os Produtores Nacionais.
       </InfoWrapper>
 
       <CardsWrapper title="Frutas" gap={1} stretch={true}>

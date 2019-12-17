@@ -5,6 +5,7 @@ export const Container = styled.article`
   padding: 1rem;
   font-size: 0.65rem;
   justify-content: space-around;
+  padding-top: 2rem;
 
   @media only screen and (max-width: 45rem) {
     flex-wrap: wrap;

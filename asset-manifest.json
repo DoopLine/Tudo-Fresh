@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Tudo-Fresh/static/js/main.6c9cdefc.chunk.js",
-    "main.js.map": "/Tudo-Fresh/static/js/main.6c9cdefc.chunk.js.map",
+    "main.js": "/Tudo-Fresh/static/js/main.49aac7d5.chunk.js",
+    "main.js.map": "/Tudo-Fresh/static/js/main.49aac7d5.chunk.js.map",
     "runtime-main.js": "/Tudo-Fresh/static/js/runtime-main.403445d0.js",
     "runtime-main.js.map": "/Tudo-Fresh/static/js/runtime-main.403445d0.js.map",
     "static/css/2.764ccc25.chunk.css": "/Tudo-Fresh/static/css/2.764ccc25.chunk.css",
-    "static/js/2.b508c031.chunk.js": "/Tudo-Fresh/static/js/2.b508c031.chunk.js",
-    "static/js/2.b508c031.chunk.js.map": "/Tudo-Fresh/static/js/2.b508c031.chunk.js.map",
+    "static/js/2.f1ec9c15.chunk.js": "/Tudo-Fresh/static/js/2.f1ec9c15.chunk.js",
+    "static/js/2.f1ec9c15.chunk.js.map": "/Tudo-Fresh/static/js/2.f1ec9c15.chunk.js.map",
     "index.html": "/Tudo-Fresh/index.html",
-    "precache-manifest.186793a4d457ba943a527c4a9f614a9f.js": "/Tudo-Fresh/precache-manifest.186793a4d457ba943a527c4a9f614a9f.js",
+    "precache-manifest.71f4584282467b7c6ff4a1f74355473b.js": "/Tudo-Fresh/precache-manifest.71f4584282467b7c6ff4a1f74355473b.js",
     "service-worker.js": "/Tudo-Fresh/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/Tudo-Fresh/static/css/2.764ccc25.chunk.css.map",
     "static/media/11ss_2048x2048.jpg": "/Tudo-Fresh/static/media/11ss_2048x2048.121a8b2a.jpg",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.403445d0.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.b508c031.chunk.js",
-    "static/js/main.6c9cdefc.chunk.js"
+    "static/js/2.f1ec9c15.chunk.js",
+    "static/js/main.49aac7d5.chunk.js"
   ]
 }

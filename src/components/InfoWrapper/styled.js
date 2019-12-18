@@ -5,8 +5,9 @@ export const Container = styled.article`
 	max-width: 813px;
 	padding-left: 0.6rem;
 	padding-right: 0.6rem;
-	margin: 1rem auto;
+	margin: .5rem auto;
 	height: 30rem;
+	overflow-y: auto;
 
 	${({ reverse }) =>
 		reverse &&

@@ -5,7 +5,8 @@ export const Container = styled.section`
 	height: 25rem;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 1rem;
+	margin-bottom: .7rem;
+
 	@media only screen and (max-width: 45rem) {
 		height: auto;
 	}

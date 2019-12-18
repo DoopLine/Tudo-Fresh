@@ -12,6 +12,7 @@ import Office from "./pages/Office";
 import Resale from "./pages/Resale";
 import About from "./pages/About";
 import SignInAndSignUp from "./pages/SignInAndSignUp";
+import Legal from "./pages/Legal";
 
 //Containers
 import User from "./containers/User";
@@ -49,6 +50,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/signin" component={SignInAndSignUp} />
         <Route path="/user" component={displayUser} />
+        <Route path="/legal" component={Legal} />
       </Switch>
       <GlobalStyled />
     </>

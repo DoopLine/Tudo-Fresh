@@ -16,7 +16,7 @@ const Office = () => {
 		<Container>
 			<Hero
 				image={heroImg}
-				text='A Tudofresh possui planos excelentes para a sua empresa'
+				text='Possui planos excelentes para a sua empresa'
 			/>
 			<InfoWrapper
 				title='Proporcione bem-estar aos seus colaboradores'
@@ -31,6 +31,7 @@ const Office = () => {
 				title='Como nós trabalhamos'
 				image={handshakeImg}
 				alt='Aperto de mãos'
+				reverse={true}
 			>
 				A Tudofresh ajuda a sua empresa a promover momentos diferentes,
 				desde uma simples pausa a uma reunião mais importante.

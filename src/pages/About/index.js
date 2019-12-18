@@ -3,26 +3,25 @@ import React from "react";
 import { Container } from "./styled";
 
 import InfoWrapper from "../../components/InfoWrapper";
-import Footer from '../../components/Footer';
-//images 
-import aboutImg from '../../assets/images/common/slide_main.jpg';
+import Footer from "../../components/Footer";
+//images
+import aboutImg from "../../assets/images/common/slide_main.jpg";
 
 const About = () => {
-  return (
-    <Container>
-      <InfoWrapper title="Sobre Nós" image={aboutImg}> 
-        Quase metade dos alimentos produzidos por agricultores no nosso país nunca é vendido,
-        mas consumir alimentos saldaveis tem se tornado muito caro. Este é um ciclo de desperdício
-        de alimentos que tem que acabar, e há uma solução simples para este problema. <strong>Tudofresh</strong>
-      </InfoWrapper>
-      <InfoWrapper title="Nosso Propósito"> 
-        Quase metade dos alimentos produzidos por agricultores no nosso país nunca é vendido,
-        mas consumir alimentos saldaveis tem se tornado muito caro. Este é um ciclo de desperdício
-        de alimentos que tem que acabar, e há uma solução simples para este problema. <strong>Tudofresh</strong>
-      </InfoWrapper>
-      <Footer />
-    </Container>
-  );
+	return (
+		<Container>
+			<InfoWrapper title='Sobre Nós' image={aboutImg}>
+				A <strong>Tudofresh</strong> é uma marca de produtos agrícolas que tem para o
+				cliente, o melhor da alimentação saudável. O que nos ajuda a trazer os melhores
+				produtos até ao cliente é o facto de que entramos em contacto
+				directo com produtores que têm como paixão o seu serviço. Os
+				produtos passam por um processo cuidadoso de triagem e
+				higienização; e finalmente a distribuição para os diferentes
+				pontos de venda.
+			</InfoWrapper>
+			<Footer />
+		</Container>
+	);
 };
 
 export default About;

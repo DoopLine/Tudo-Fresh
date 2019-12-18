@@ -21,7 +21,7 @@ const House = () => {
       <Hero image={heroImg} text="Facilidade e satisfação no cubico" />
       {/* <InfoWrapper title="Facilidade e satisfação no cubico"> */}
       <InfoWrapper
-        title="Facilidade e satisfação no cubico"
+        title="Satisfação no cubico"
         image={appleImg}
         alt="Maça"
       >

@@ -33,7 +33,7 @@ const FooterTop = () => {
           <ColumnTitle>{_if.title}</ColumnTitle>
           <ColumnList>
             {_if.list.map((_item, i) => (
-              <ColumnItem key={i}>{_item}</ColumnItem>
+              <ColumnItem key={i}> <a href="/legal" >{_item}</a></ColumnItem>
             ))}
           </ColumnList>
         </Column>

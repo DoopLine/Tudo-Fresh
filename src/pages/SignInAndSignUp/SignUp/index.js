@@ -7,6 +7,7 @@ import InputText from "../../../components/InputText";
 import Button from "../../../components/Button";
 
 const SignUp = () => {
+  const [nameAndSurname, changeNameAndSurname, resetNameAndSurname] = useFormState("");
   const [userName, changeUserName, resetUserName] = useFormState("");
   const [email, changeEmail, resetEmail] = useFormState("");
   const [password, changePassword, resetPassword] = useFormState("");
@@ -28,10 +29,10 @@ const SignUp = () => {
         <InputText
           label="Nome e Sobrenome"
           name="nameAndSurname"
-          value={userName}
+          value={nameAndSurname}
           required
-          onChange={changeUserName}
-          onClean={resetUserName}
+          onChange={changeNameAndSurname}
+          onClean={resetNameAndSurname}
         />
         <InputText
           label="Nome de usuário"

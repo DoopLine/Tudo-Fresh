@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Tudo-Fresh/static/js/main.49aac7d5.chunk.js",
-    "main.js.map": "/Tudo-Fresh/static/js/main.49aac7d5.chunk.js.map",
+    "main.js": "/Tudo-Fresh/static/js/main.d39af25c.chunk.js",
+    "main.js.map": "/Tudo-Fresh/static/js/main.d39af25c.chunk.js.map",
     "runtime-main.js": "/Tudo-Fresh/static/js/runtime-main.403445d0.js",
     "runtime-main.js.map": "/Tudo-Fresh/static/js/runtime-main.403445d0.js.map",
     "static/css/2.764ccc25.chunk.css": "/Tudo-Fresh/static/css/2.764ccc25.chunk.css",
-    "static/js/2.f1ec9c15.chunk.js": "/Tudo-Fresh/static/js/2.f1ec9c15.chunk.js",
-    "static/js/2.f1ec9c15.chunk.js.map": "/Tudo-Fresh/static/js/2.f1ec9c15.chunk.js.map",
+    "static/js/2.0af2716e.chunk.js": "/Tudo-Fresh/static/js/2.0af2716e.chunk.js",
+    "static/js/2.0af2716e.chunk.js.map": "/Tudo-Fresh/static/js/2.0af2716e.chunk.js.map",
     "index.html": "/Tudo-Fresh/index.html",
-    "precache-manifest.71f4584282467b7c6ff4a1f74355473b.js": "/Tudo-Fresh/precache-manifest.71f4584282467b7c6ff4a1f74355473b.js",
+    "precache-manifest.453c4459f13f4c180c19758d4b4953c3.js": "/Tudo-Fresh/precache-manifest.453c4459f13f4c180c19758d4b4953c3.js",
     "service-worker.js": "/Tudo-Fresh/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/Tudo-Fresh/static/css/2.764ccc25.chunk.css.map",
     "static/media/11ss_2048x2048.jpg": "/Tudo-Fresh/static/media/11ss_2048x2048.121a8b2a.jpg",
@@ -22,7 +22,9 @@
     "static/media/charcutaria.jpg": "/Tudo-Fresh/static/media/charcutaria.26945113.jpg",
     "static/media/cooking.jpg": "/Tudo-Fresh/static/media/cooking.89d12406.jpg",
     "static/media/denilson.jpg": "/Tudo-Fresh/static/media/denilson.d481ecd5.jpg",
+    "static/media/fruits_kiosk.jpg": "/Tudo-Fresh/static/media/fruits_kiosk.11fb4bed.jpg",
     "static/media/handshake.jpg": "/Tudo-Fresh/static/media/handshake.3bbf2a8c.jpg",
+    "static/media/kiosk.jpg": "/Tudo-Fresh/static/media/kiosk.4cb67a20.jpg",
     "static/media/legumes.jpg": "/Tudo-Fresh/static/media/legumes.c6cfe0f1.jpg",
     "static/media/logo.svg": "/Tudo-Fresh/static/media/logo.ba2e8c12.svg",
     "static/media/macas.jpg": "/Tudo-Fresh/static/media/macas.afb8e1a5.jpg",
@@ -41,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.403445d0.js",
     "static/css/2.764ccc25.chunk.css",
-    "static/js/2.f1ec9c15.chunk.js",
-    "static/js/main.49aac7d5.chunk.js"
+    "static/js/2.0af2716e.chunk.js",
+    "static/js/main.d39af25c.chunk.js"
   ]
 }

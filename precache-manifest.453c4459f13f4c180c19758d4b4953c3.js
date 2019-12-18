@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "453902ad3bf00c4be56db70d27b990f4",
+    "revision": "6ea749c064ca2c2b12994ff38d8d1eca",
     "url": "/Tudo-Fresh/index.html"
   },
   {
-    "revision": "9b994607e8bf0aebc3f3",
+    "revision": "13bcd2955bda10b0c9a0",
     "url": "/Tudo-Fresh/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "9b994607e8bf0aebc3f3",
-    "url": "/Tudo-Fresh/static/js/2.f1ec9c15.chunk.js"
+    "revision": "13bcd2955bda10b0c9a0",
+    "url": "/Tudo-Fresh/static/js/2.0af2716e.chunk.js"
   },
   {
-    "revision": "8497314f3b6fe4ad0263",
-    "url": "/Tudo-Fresh/static/js/main.49aac7d5.chunk.js"
+    "revision": "98ebc499d44750802da8",
+    "url": "/Tudo-Fresh/static/js/main.d39af25c.chunk.js"
   },
   {
     "revision": "3df008a93b85b9634163",
@@ -64,8 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tudo-Fresh/static/media/denilson.d481ecd5.jpg"
   },
   {
+    "revision": "11fb4bed65f37b591a2056c6834f1383",
+    "url": "/Tudo-Fresh/static/media/fruits_kiosk.11fb4bed.jpg"
+  },
+  {
     "revision": "3bbf2a8c6a89f06f0420774820149d5a",
     "url": "/Tudo-Fresh/static/media/handshake.3bbf2a8c.jpg"
+  },
+  {
+    "revision": "4cb67a207df7137a0426f58817d5dcbb",
+    "url": "/Tudo-Fresh/static/media/kiosk.4cb67a20.jpg"
   },
   {
     "revision": "92394e92bc92ed74508eb8f0bd1df266",

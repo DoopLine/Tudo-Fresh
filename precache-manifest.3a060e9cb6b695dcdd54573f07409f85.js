@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ea749c064ca2c2b12994ff38d8d1eca",
+    "revision": "ce71804a3a80c2973c7f5bcb7072f9a5",
     "url": "/Tudo-Fresh/index.html"
   },
   {
-    "revision": "13bcd2955bda10b0c9a0",
+    "revision": "9ddfe85c812cee419d40",
     "url": "/Tudo-Fresh/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "13bcd2955bda10b0c9a0",
-    "url": "/Tudo-Fresh/static/js/2.0af2716e.chunk.js"
+    "revision": "9ddfe85c812cee419d40",
+    "url": "/Tudo-Fresh/static/js/2.fab4a7be.chunk.js"
   },
   {
-    "revision": "98ebc499d44750802da8",
-    "url": "/Tudo-Fresh/static/js/main.d39af25c.chunk.js"
+    "revision": "cbcc133f4091dbfdbc81",
+    "url": "/Tudo-Fresh/static/js/main.ee3775a2.chunk.js"
   },
   {
     "revision": "3df008a93b85b9634163",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tudo-Fresh/static/media/Raleway-Regular.9942588a.ttf"
   },
   {
-    "revision": "80ddbd4e5352a8e73d4d89e9784e570d",
-    "url": "/Tudo-Fresh/static/media/artistic_apple.80ddbd4e.jpg"
-  },
-  {
     "revision": "27aac1bc590c24f8a9ea970c93251d09",
     "url": "/Tudo-Fresh/static/media/b7cddc80-ebc7-4d31-8329-4e3e14d99498.27aac1bc.jpg"
+  },
+  {
+    "revision": "cb7cda777b757435aabf33665fc46341",
+    "url": "/Tudo-Fresh/static/media/banana_disert.cb7cda77.jpg"
   },
   {
     "revision": "26945113837633b4ed18bcad63a2f948",
@@ -64,6 +64,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tudo-Fresh/static/media/denilson.d481ecd5.jpg"
   },
   {
+    "revision": "9da71bd91cf85242562d2a22aeb8b67f",
+    "url": "/Tudo-Fresh/static/media/fruits_basket.9da71bd9.jpg"
+  },
+  {
+    "revision": "d6f642614117adc077cf522812b70683",
+    "url": "/Tudo-Fresh/static/media/fruits_bow.d6f64261.jpg"
+  },
+  {
     "revision": "11fb4bed65f37b591a2056c6834f1383",
     "url": "/Tudo-Fresh/static/media/fruits_kiosk.11fb4bed.jpg"
   },
@@ -72,16 +80,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tudo-Fresh/static/media/handshake.3bbf2a8c.jpg"
   },
   {
+    "revision": "6dbb003b4571d9408e3eab5aaef81e50",
+    "url": "/Tudo-Fresh/static/media/holding_grapes.6dbb003b.jpg"
+  },
+  {
     "revision": "4cb67a207df7137a0426f58817d5dcbb",
     "url": "/Tudo-Fresh/static/media/kiosk.4cb67a20.jpg"
   },
   {
     "revision": "92394e92bc92ed74508eb8f0bd1df266",
     "url": "/Tudo-Fresh/static/media/legumes.92394e92.jpg"
-  },
-  {
-    "revision": "c6cfe0f190fa0440506a548dbe9456fa",
-    "url": "/Tudo-Fresh/static/media/legumes.c6cfe0f1.jpg"
   },
   {
     "revision": "ba2e8c1259158f2c47ad85e91063b68c",
@@ -100,6 +108,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tudo-Fresh/static/media/orange.99714753.svg"
   },
   {
+    "revision": "d64ca1c0d3076892257812633ce75276",
+    "url": "/Tudo-Fresh/static/media/orange.d64ca1c0.jpg"
+  },
+  {
     "revision": "80e1fec3914063c2fd82ca4437a7aa54",
     "url": "/Tudo-Fresh/static/media/packed_lunch.80e1fec3.jpg"
   },
@@ -110,10 +122,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "027c18f2dbcec23511a93b25344d01c6",
     "url": "/Tudo-Fresh/static/media/pitanga.027c18f2.png"
-  },
-  {
-    "revision": "b0975a09b1d360b3e1a1a7fa5a55bf5c",
-    "url": "/Tudo-Fresh/static/media/produtor consumidor_Prancheta 1.b0975a09.png"
   },
   {
     "revision": "16ea4760c3ae347d77347aebcd638222",

@@ -65,6 +65,7 @@ export const IconsWrapper = styled.span`
 	min-width: 4rem;
 	display: flex;
 	justify-content: center;
+	font-size: 2rem;
 
 	> svg:first-child {
 		margin-right: 0.5rem;

@@ -21,6 +21,7 @@ export const Text = styled.figcaption`
   border-radius: 3px;
   font-size: 0.7rem;
   cursor: pointer;
+  text-transform: capitalize;
 
 
   :hover {

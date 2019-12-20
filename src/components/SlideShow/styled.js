@@ -23,13 +23,14 @@ const animLeft = keyframes`
 
 export const Container = styled.section`
   position: relative;
-  height: 100%;
+  height: 60vh;
   display: flex;
   background: url(${({ bg }) => bg});
   background-position: center;
   background-size: cover;
   align-items: center;
-  max-height: 30rem;
+  max-height:25rem;
+  min-height: 15rem;
 
   ::before {
     content: "";

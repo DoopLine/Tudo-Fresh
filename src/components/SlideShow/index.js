@@ -12,8 +12,8 @@ import {
 } from "./styled";
 
 //images
-import bgImg from "../../assets/images/common/slide_main.jpg";
-import slideImg1 from "../../assets/images/slide/legumes.jpg";
+import bgImg from "../../assets/images/common/orange.jpg";
+import slideImg1 from "../../assets/images/common/holding_grapes.jpg";
 import slideImg2 from "../../assets/images/slide/macas.jpg";
 import slideImg3 from "../../assets/images/slide/pimentas.jpg";
 

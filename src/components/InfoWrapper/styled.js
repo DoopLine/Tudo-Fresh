@@ -83,7 +83,7 @@ export const TextWapper = styled.span`
 				font-size: 1.3rem;
 			}
 
-			>p{
+			> p {
 				margin: initial;
 			}
 		`}
@@ -91,7 +91,7 @@ export const TextWapper = styled.span`
 	${({ flex }) =>
 		!flex &&
 		css`
-			margin: 0 1rem;
+			margin-right: .5rem;
 			width: 100%;
 
 			> p {

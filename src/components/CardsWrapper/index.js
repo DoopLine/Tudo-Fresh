@@ -2,14 +2,14 @@ import React from "react";
 
 import { Container, Content, Header } from "./styled";
 
-const CardWrapper = ({ children, title, gap = 2, stretch= false }) => {
+const CardWrapper = ({ children, title, gap = 2, stretch= false, center = false }) => {
   return (
     <Container>
       <Header stretch={stretch}>
         <h3>{title}</h3>
         <a href="*">Ver mais</a>
       </Header>
-      <Content marginRight={gap} stretch={stretch}>
+      <Content marginRight={gap} stretch={stretch} center={center}>
         {children}
         <span style={{ opacity: 0 }}>lo</span>
       </Content>

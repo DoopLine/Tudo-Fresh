@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  height: 100%;
+  height: 60vh;
+  max-height:25rem;
+  min-height: 15rem;
   text-align: center;
   background: linear-gradient(45deg, #15151573, #2f2f2f5c),
     url(${({ image }) => image}) no-repeat;
@@ -20,5 +22,6 @@ export const Container = styled.section`
     width: 60%;
     text-align: left;
     text-shadow: 2px 2px 5px #0000002b;
+    line-height: 1;
   }
 `;

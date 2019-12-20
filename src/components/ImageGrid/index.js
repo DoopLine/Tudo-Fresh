@@ -4,8 +4,8 @@ import {FaFacebookSquare, FaInstagram} from 'react-icons/fa';
 import { Container, GridRow, ContentCell, ImageCell, IconsWrapper } from './styled';
 
 //Images
-import frutasImg from "../../assets/images/common/tijela_frutas.jpg";
-import servingTrayImg from "../../assets/images/common/serving_tray.jpg";
+import frutasImg from "../../assets/images/common/fruits_bow.jpg";
+import bananaDisertImg from "../../assets/images/common/banana_disert.jpg";
 import charcutariaImg from "../../assets/images/charcutaria/charcutaria.jpg";
 
 const ImageGrid = () => {
@@ -17,7 +17,7 @@ const ImageGrid = () => {
                         <FaInstagram />
                         <FaFacebookSquare />
                     </IconsWrapper>
-                    <p>Nas Redes Sociais</p>
+                    <p>@Tudofresh</p>
                 </ContentCell>
                 <ImageCell>
                     <img className="flex-img" src={frutasImg} alt="teste" />
@@ -25,7 +25,7 @@ const ImageGrid = () => {
             </GridRow>
             <GridRow>
                 <ImageCell>
-                    <img className="flex-img" src={servingTrayImg} alt="teste" />
+                    <img className="flex-img" src={bananaDisertImg} alt="teste" />
                 </ImageCell>
                 <ImageCell>
                     <img className="flex-img" src={charcutariaImg} alt="teste" />

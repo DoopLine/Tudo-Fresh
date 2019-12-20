@@ -16,7 +16,7 @@ const Office = () => {
 		<Container>
 			<Hero
 				image={heroImg}
-				text='Possui planos excelentes para a sua empresa'
+				text='Excelentes planos para a sua empresa'
 			/>
 			<InfoWrapper
 				title='Proporcione bem-estar aos seus colaboradores'

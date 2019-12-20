@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <Container>
       <SlideShow />
-      <CardsWrapper title="cestas">
+      <CardsWrapper title="cestas" center={true}>
         <BasketCard
           content={{ img: orange, title: "Cesta Especial" }}
           goTo="/cart"

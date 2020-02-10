@@ -112,4 +112,13 @@ export const Purchases = styled.ul`
 
 export const MainContent = styled.article`
   display: flex;
+
+  @media only screen and (max-width: 55rem) {
+    flex-direction: column;
+
+
+    > * {
+      width: 100%;
+    }
+  }
 `;

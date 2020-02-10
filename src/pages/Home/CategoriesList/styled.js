@@ -13,16 +13,17 @@ export const Title = styled.h3`
 
 export const List = styled.div`
 	display: flex;
-	margin-bottom: .5rem;
+	margin-bottom: 0.5rem;
 
-	>*:not(:last-child){
-		margin-right: .5rem;
+	> *:not(:last-child) {
+		margin-right: 0.5rem;
 	}
 
 	@media only screen and (max-width: 30rem) {
 		flex-direction: column;
-		>*:not(:last-child){
-		margin-right: initial;
-	}
+		> *:not(:last-child) {
+			margin-right: initial;
+			margin-bottom: 0.2rem;
+		}
 	}
 `;

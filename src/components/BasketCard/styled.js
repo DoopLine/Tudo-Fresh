@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const Container = styled.div`
 	background: white;
 	border-radius: 8px;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 2px 10px #00000038;
 	cursor: pointer;
 	height: 15rem;
 	padding: 0 20px;
@@ -13,6 +13,7 @@ export const Container = styled.div`
 	transition: height 1000ms;
 	width: 14rem;
 	min-width: 10rem;
+	scroll-snap-align: center;
 
 	::before {
 		content: "";
@@ -54,7 +55,7 @@ export const CardButton = styled.button`
 	transform: translateX(-50%);
 	justify-content: center;
 	align-items: center;
-	padding: 0.5rem 1rem;
+	padding: 0.5rem;
 	background-color: transparent;
 	border: none;
 	translate: 0.5s;

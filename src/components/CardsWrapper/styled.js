@@ -41,13 +41,13 @@ export const Header = styled.article`
 		color: currentColor;
 		transition: border-color 0.3s, padding-bottom 0.3s;
 		height: fit-content;
-    padding: .3rem .5rem;
-    border-radius: 2rem;
-    transition: background-color .3s;
+		padding: 0.3rem 0.5rem;
+		border-radius: 2rem;
+		transition: background-color 0.3s;
 
 		:hover,
 		:active {
-      background-color: #dfdfdf;
+			background-color: #dfdfdf;
 		}
 	}
 `;
@@ -60,6 +60,8 @@ export const Content = styled.article`
 	padding: 1rem;
 	max-width: 37rem;
 	margin: auto;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x mandatory; 
 
 	${({ stretch }) =>
 		stretch &&
@@ -77,4 +79,8 @@ export const Content = styled.article`
 			max-width: initial;
 			justify-content: center;
 		`}
+
+	@media screen and (max-width: 1024px) {
+		justify-content: flex-start;
+	}
 `;

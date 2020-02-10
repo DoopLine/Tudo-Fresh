@@ -33,11 +33,11 @@ const SlideShow = () => {
   const [hasAnimation, setHasAnimation] = useState(false);
   const [animDirection, setAnimDirection] = useState(false);
 
-  clearInterval(interval);
-  interval = setInterval(() => {
-    console.log("interval");
-    handleOnSlideChange(slideIndex + 1);
-  }, 5000);
+  // clearInterval(interval);
+  // interval = setInterval(() => {
+  //   console.log("interval");
+  //   handleOnSlideChange(slideIndex + 1);
+  // }, 5000);
 
   const handleOnSlideChange = index => {
     // setHasAnimation(false);

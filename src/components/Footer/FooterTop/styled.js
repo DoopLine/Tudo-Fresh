@@ -40,7 +40,7 @@ export const ColumnItem = styled.li`
 		border-bottom: 1px solid currentColor;
 	}
 	:not(:last-child) {
-		margin-bottom: 0.5rem;
+		margin-bottom: 0.2rem;
 	}
 
 	> a {

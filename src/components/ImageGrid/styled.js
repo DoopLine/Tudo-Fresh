@@ -5,10 +5,11 @@ export const Container = styled.section`
 	height: 25rem;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: .7rem;
+	margin-bottom: 0.7rem;
 
 	@media only screen and (max-width: 45rem) {
 		height: auto;
+		margin-bottom: 0.1rem;
 	}
 `;
 
@@ -21,16 +22,20 @@ export const GridRow = styled.article`
 		margin-right: 0.5rem;
 	}
 
-	:not(:last-child){
-		margin-bottom: .5rem;
+	:not(:last-child) {
+		margin-bottom: 0.5rem;
 	}
 
 	@media only screen and (max-width: 45rem) {
+		flex-direction: column;
+
 		> *:first-child {
 			margin-right: initial;
 		}
 
-		flex-direction: column;
+		:not(:last-child) {
+			margin-bottom: 0;
+		}
 	}
 `;
 
@@ -47,6 +52,7 @@ export const ContentCell = styled.div`
 	@media only screen and (max-width: 45rem) {
 		width: 100%;
 		margin-right: initial;
+		margin-bottom: 0.5rem;
 	}
 `;
 

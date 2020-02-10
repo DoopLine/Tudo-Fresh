@@ -3,7 +3,7 @@ import React from "react";
 import { Container } from "./styled";
 
 import Hero from "../../components/Hero";
-import InfoWrapper from "../../components/InfoWrapper";
+// import InfoWrapper from "../../components/InfoWrapper";
 import InfoOverlayWrapper from "../../components/InfoOverlayWrapper";
 import Footer from "../../components/Footer";
 

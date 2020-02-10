@@ -38,7 +38,15 @@ export const Container = styled.article`
 		width: 50%;
 		height: 100%;
 		object-fit: cover;
-		/* max-width: 20rem; */
+	}
+
+	@media only screen and (max-width: 55rem) {
+		flex-direction: column;
+		height: fit-content;
+
+		>img{
+			width: 100%;
+		}
 	}
 `;
 
@@ -91,7 +99,7 @@ export const TextWapper = styled.span`
 	${({ flex }) =>
 		!flex &&
 		css`
-			margin-right: .5rem;
+			margin-right: 0.5rem;
 			width: 100%;
 
 			> p {
